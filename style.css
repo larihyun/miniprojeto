@@ -1,0 +1,90 @@
+body {
+    font-weight: 400;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2.0em;
+    color: #7a7a7a;
+    margin: 0;
+}
+
+section, footer {
+    margin: 40px;
+}
+
+h1 {
+    font-size: 63px;
+    color: rgb(52, 4, 66);
+    padding: 17px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 54px;
+    color: rgb(72, 39, 102);
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 54px;
+    color: rgb(72, 39, 102);
+    font-weight: 500;
+    margin-left: 8rem;
+}
+
+.carousel-caption h3 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #ad2981;
+    text-shadow: 2px 2px 2px #030303;
+}
+
+.card-img {
+    width: 40%;
+}
+
+.card {
+    box-sizing: 40%;
+} 
+
+footer {
+    width: 100%;
+    color: #030303;
+}
+
+#footer_content {
+    background-color: darksalmon;
+    display: block;
+    padding: 1rem;
+    margin: none;
+}
+
+
+/* Center align the text within the one column below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.0rem;
+    text-align: center;
+    width: 100%;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-6 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  /* rtl:end:ignore */
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  /* rtl:begin:remove */
+  .featurette-heading {
+    letter-spacing: -.05rem;
+  }
+  
+  /* rtl:end:remove */
+
+  
